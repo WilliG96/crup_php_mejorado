@@ -1,0 +1,89 @@
+/* Establecer un fondo de pantalla */
+body {
+    position: relative;
+    background-image: url('https://wallpapercave.com/wp/wp11380516.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: 'Roboto', sans-serif;
+    color: #080808; /* Cambia el color de texto si es necesario */
+}
+
+/* Estilo personalizado para la tabla */
+.table {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Encabezado de la tabla */
+.thead-dark th {
+    background: #0e141b;
+    color: white;
+    text-align: center;
+}
+
+/* Estilos de botones */    
+.btn-primary {
+    background-color: #0d151f;
+    border-color: #011325;
+    font-weight: 500;
+    
+}
+
+.btn-secondary{
+    background: rgb(0, 0, 0);
+    font-weight: bold;
+    color: #fffbfb;
+
+}
+
+.btn-danger {
+    background-color: #be0719;
+    border-color: #200306;
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+}
+
+.btn-warning {
+    background-color: #037012;
+    border-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Estilo para la tarjeta */
+.card {
+    background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semi-transparente */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Espacio entre secciones */
+.container {
+    margin-top: 30px;
+}
+
+/* Centrar el contenido del pie de página */
+.card-footer {
+    background-color: transparent;
+}
+
+/* Enlaces dentro de la tabla */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+text-decoration-line: underline;
+}
+
+/* Estilo para la cabecera */
+.card-header {
+    background-color: #000203;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
